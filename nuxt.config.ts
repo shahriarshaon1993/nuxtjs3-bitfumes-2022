@@ -3,6 +3,9 @@ export default defineNuxtConfig({
     css: [
         "assets/css/tailwind.css"
     ],
+    meta: {
+        title: "Nuxt3 Course"
+    },
     build: {
         postcss: {
             postcssOptions: {
