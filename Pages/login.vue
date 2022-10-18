@@ -60,13 +60,16 @@
             method: "post",
             body: form,
         });
+
         isLoading.value = false;
-        if (error.value) {
+
+        if(error.value) {
             _error.value = error.value.data.error;
             return;
         }
+
         const auth = useAuth();
         auth.value.isAuthenticated = true;
-        navigateTo("/");
+        navigateTo('/');
     }
 </script>
