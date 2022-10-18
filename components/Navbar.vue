@@ -5,6 +5,7 @@
             <NuxtLink to="/about">About</NuxtLink>
             <NuxtLink to="/iphone">iPhones</NuxtLink>
             <NuxtLink to="/profile">Profile</NuxtLink>
+            <NuxtLink to="/login">Login</NuxtLink>
             <p>Cart ({{ cart.length }})</p>
         </nav>
     </div>
